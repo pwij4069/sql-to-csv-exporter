@@ -1,0 +1,80 @@
+[
+  {
+    "name": "opco_number",
+    "type": "int",
+    "required": false,
+    "help": "Opco Number. i.e. 067"
+  },
+  {
+    "name": "customer_number",
+    "type": "str",
+    "required": false,
+    "help": "Customer Number. i.e. 000018"
+  },
+  {
+    "name": "lineNumber",
+    "type": "int",
+    "required": false,
+    "help": "Customer Number. i.e. 083"
+  },
+  {
+    "name": "invoice_number",
+    "type": "str",
+    "required": false,
+    "help": "Invoice Number. i.e. 12345"
+  },
+  {
+    "name": "opco_nbr_list",
+    "type": "list",
+    "required": false,
+    "help": "Comma-separated list of OpCo numbers (required for query5)"
+  },
+  {
+    "name": "invoice_numbers",
+    "type": "list",
+    "required": false,
+    "help": "Comma-separated invoice numbers i.e. 123456,545454"
+  },
+  {
+    "name": "date_from",
+    "type": "str",
+    "required": false,
+    "help": "Transaction Date start. i.e. 2017-08-01"
+  },
+  {
+    "name": "date_to",
+    "type": "str",
+    "required": false,
+    "help": "Transaction Date end. i.e. 2017-08-31"
+  },
+  {
+    "name": "misc_charge_type_code",
+    "type": "str",
+    "required": false,
+    "help": "Misc charge type code: OAL, ADM .. (or undefined)"
+  },
+  {
+    "name": "itemDescription",
+    "type": "str",
+    "required": false,
+    "help": "Item description."
+  },
+  {
+    "name": "itemNumber",
+    "type": "str",
+    "required": false,
+    "help": "Item number"
+  },
+  {
+    "name": "sus_created_on_date_from",
+    "type": "str",
+    "required": false,
+    "help": "Transaction Date start. i.e. 2017-08-01"
+  },
+  {
+    "name": "sus_created_on_date_to",
+    "type": "str",
+    "required": false,
+    "help": "Transaction Date end. i.e. 2017-08-31"
+  }
+]

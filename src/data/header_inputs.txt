@@ -1,0 +1,23 @@
+# Optional parameters below — uncomment as needed:
+
+#--opco_nbr 101
+# --customer_number 544171
+# --invoice_number 12345
+ --opco_nbr_list 101,102,103
+#--invoice_numbers 279616401,279616402
+ --date_from 2023-01-01
+ --date_to 2023-01-31
+# --delivery_date_from 2023-06-01
+# --delivery_date_to 2023-06-30
+# --status P,D
+# --additional_seller_providers SYMPL,MIRAKL
+# --seller_id USBL
+# --invoice_status (C),(I),(D)
+# --invoice_source BA
+# --clean_status Y
+# --trans_code I
+# --po_number A123456
+# --source_number 7890
+# --original_case_count 50
+# --current_case_count 45
+

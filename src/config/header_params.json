@@ -1,0 +1,112 @@
+[
+  {
+    "name": "opco_nbr",
+    "type": "int",
+    "required": false,
+    "help": "OpCo number (only required for some queries)"
+  },
+  {
+    "name": "customer_number",
+    "type": "str",
+    "required": false,
+    "help": "Customer Number. i.e. 544171"
+  },
+  {
+    "name": "invoice_number",
+    "type": "str",
+    "required": false,
+    "help": "Invoice Number. i.e. 12345"
+  },
+  {
+    "name": "opco_nbr_list",
+    "type": "list",
+    "required": false,
+    "help": "Comma-separated list of OpCo numbers (required for query5)"
+  },
+  {
+    "name": "invoice_numbers",
+    "type": "list",
+    "required": false,
+    "help": "Comma-separated invoice numbers i.e. 123456,545454"
+  },
+  {
+    "name": "date_from",
+    "type": "str",
+    "required": false,
+    "help": "Start date (YYYY-MM-DD)"
+  },
+  {
+    "name": "date_to",
+    "type": "str",
+    "required": false,
+    "help": "End date (YYYY-MM-DD)"
+  },
+  {
+    "name": "delivery_date_from",
+    "type": "str",
+    "required": false,
+    "help": "Delivery date range start. Format is yyyy-MM-dd"
+  },
+  {
+    "name": "delivery_date_to",
+    "type": "str",
+    "required": false,
+    "help": "Delivery date range end. Format is yyyy-MM-dd"
+  },
+  {
+    "name": "seller_id",
+    "type": "str",
+    "required": false,
+    "help": "Seller identifier. e.g. USBL"
+  },
+  {
+    "name": "additional_seller_providers",
+    "type": "str",
+    "required": false,
+    "help": "Additional Seller Providers i.e SYMPL, MIRAKL"
+  },
+  {
+    "name": "invoice_status",
+    "type": "str",
+    "required": false,
+    "help": "Invoice Status. i.e. (C), (I), (D)"
+  },
+  {
+    "name": "invoice_source",
+    "type": "str",
+    "required": false,
+    "help": "Invoice source. e.g., BA - Billing address, OR - Order, PU - Pickup, RT - Return",
+    "choices": ["BA", "OR", "PU", "RT"]
+  },
+  {
+    "name": "clean_status",
+    "type": "str",
+    "required": false,
+    "help": "Clean Status. Y - Clean, N - Dirty",
+    "choices": ["Y", "N", "y", "n"]
+  },
+  {
+    "name": "poNumber",
+    "type": "str",
+    "required": false,
+    "help": "Purchase Order Number. e.g. A123456"
+  },
+  {
+    "name": "sourceNumber",
+    "type": "int",
+    "required": false,
+    "help": "Source Number if available"
+  },
+  {
+    "name": "originalCaseCount",
+    "type": "int",
+    "required": false,
+    "help": "Original case count on invoice"
+  },
+  {
+    "name": "currentCaseCount",
+    "type": "int",
+    "required": false,
+    "help": "Current case count on invoice"
+  }
+]

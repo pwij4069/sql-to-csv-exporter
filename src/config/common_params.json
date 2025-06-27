@@ -1,0 +1,38 @@
+[
+  {
+    "name": "env",
+    "type": "str",
+    "required": true,
+    "help": "Database config key (e.g., dev, prod)"
+  },
+  {
+    "name": "schema",
+    "type": "str",
+    "required": true,
+    "help": "Database schema name (e.g., invoice)"
+  },
+  {
+    "name": "table",
+    "type": "str",
+    "required": true,
+    "help": "Database table name (e.g., header, detail)"
+  },
+  {
+    "name": "select",
+    "type": "str",
+    "required": false,
+    "help": "Select column pattern (default: all)"
+  },
+  {
+    "name": "columns",
+    "type": "str",
+    "required": false,
+    "help": "Comma-separated list of custom columns"
+  },
+  {
+    "name": "limit",
+    "type": "int",
+    "required": false,
+    "help": "Row limit (default: 100)"
+  }
+]

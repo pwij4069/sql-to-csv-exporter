@@ -1,0 +1,7 @@
+--env invoice_dev
+--schema invoice
+--table detail
+--limit 50
+#--select custom_invoice_summary
+--columns opco_nbr,cust_ship_to_nbr,sale_oblig_trans_id
+

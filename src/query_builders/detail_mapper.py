@@ -1,0 +1,18 @@
+# core/detail_mapper.py
+
+PARAM_TO_DB_COLUMN = {
+    "opco_number": "opco_nbr",
+    "customer_number": "cust_ship_to_nbr",
+    "invoice_number": "sale_oblig_trans_id",
+    "lineNumber": "line_nbr",
+    "opco_nbr_list": "opco_nbr",
+    "invoice_numbers": "sale_oblig_trans_id",
+    "date_from": "trans_dt",
+    "date_to": "trans_dt",
+    "itemDescription": "itm_desc",
+    "itemNumber": "itm_nbr",
+    "misc_charge_type_code": "misc_chrg_typ_cd",
+    "sus_created_on_date_from": "sus_created_on",
+    "sus_created_on_date_to": "sus_created_on"
+    # Add all other mappings...
+}
