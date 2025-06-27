@@ -7,7 +7,7 @@ import shlex
 import argparse
 from dotenv import load_dotenv
 
-load_dotenv(dotenv_path="config/.env")
+load_dotenv(dotenv_path="config/db_properties.ini")
 
 logger = logging.getLogger(__name__)
 

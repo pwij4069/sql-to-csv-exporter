@@ -1,10 +1,10 @@
 {
-  "invoice_dev": {
-    "host": "pdis-invoice-dev-test-cluster.cluster-clh7bb58ynv2.us-east-1.rds.amazonaws.com",
-    "database": "pdis_invoice"
+  "dev": {
+    "host": "localhost",
+    "database": "my_database_dev"
   },
-  "invoice_qa": {
-    "host": "pdis-invoice-qa-cluster.cluster-clh7bb58ynv2.us-east-1.rds.amazonaws.com",
-    "database": "pdis_invoice"
+  "qa": {
+    "host": "qa-db-server",
+    "database": "my_database_qa"
   }
 }
